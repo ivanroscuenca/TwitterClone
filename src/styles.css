@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .twitterButtons {
+    @apply ml-20 text-twitterWhite text-xl xl:h-auto
+    xl:w-auto xl:px-4 xl:py-3 w-14 h-14 flex space-x-3
+    justify-start items-center cursor-pointer
+     hover:bg-twitterWhite hover:bg-opacity-10
+     rounded-full transition duration-500 ease-out;
+  }
+}
