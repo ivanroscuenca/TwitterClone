@@ -11,4 +11,8 @@
      hover:bg-twitterWhite hover:bg-opacity-10
      rounded-full transition duration-500 ease-out;
   }
+
+  .logos {
+    @apply w-9 h-9 bg-gray-900 flex justify-center items-center rounded-full hover:bg-gray-600;
+  }
 }
