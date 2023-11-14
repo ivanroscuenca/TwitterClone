@@ -13,6 +13,6 @@
   }
 
   .logos {
-    @apply w-9 h-9 bg-gray-900 flex justify-center items-center rounded-full hover:bg-gray-600;
+    @apply w-9 h-9 bg-gray-900 flex justify-center items-center rounded-full hover:bg-gray-600 cursor-pointer;
   }
 }
